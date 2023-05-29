@@ -1,0 +1,40 @@
+.head{
+    display: flex;
+}
+.h-name{
+    color:rgb(32, 6, 94);
+    margin-left: 1.5rem;
+}
+.btn-create , .btn-cancel{
+    height: 30px;
+    font-size: 18px;
+    margin-top: 18px;
+   margin-left: 1rem;
+   /* justify-content: right; */
+}
+.btn-create{
+    background-color: rgb(32, 6, 94);
+    color:white;
+    margin-left: 66rem;
+}
+.btn-cancel{
+    background-color: rgb(141, 121, 121);
+    color:black;
+}
+.btn-create:hover{
+    background-color: rgb(230, 139, 21);
+    color:black;
+}
+.btn-cancel:hover{
+    background-color: rgb(17, 1, 1);
+    color:white;
+}
+.section{
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 18px auto;
+}
+.d-input{
+    width:60%;
+}

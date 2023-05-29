@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    padding:22px 0;
+}
+
+.login{
+    width: 350px;
+    height: 300px;
+    background-color: honeydew;
+    box-shadow: #803e3e 3px 3px 3px 3px;
+     align-items: center;
+    margin-top: 30px;
+    margin-left: 330px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.inp-label{
+    margin-bottom: 10px;
+}
+.input{
+    margin-left: 20px ;
+    height: 22px; 
+}
+.btn{
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background-color:#a12757 ;
+    color: black;
+    width: 50%;
+    height: 40px;
+    margin: 22px auto;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    }
+.btn:hover{
+    border-radius: 18px 0px;
+    background-color: #ed811e;
+    transition-delay: 0.5ms;
+    border: none;
+}
